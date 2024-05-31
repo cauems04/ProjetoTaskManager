@@ -1,6 +1,6 @@
 {
-    "name": "click_counter",
-    "short_name": "click_counter",
+    "name": "task_manager",
+    "short_name": "task_manager",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
