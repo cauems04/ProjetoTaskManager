@@ -39,12 +39,12 @@ class _FirebaseInitializerState extends State<FirebaseInitializer> {
                 messagingSenderId: "1014221009711",
                 appId: "1:1014221009711:web:6349d5588bcc7aac4f27da",
                 measurementId: "G-2P3SQ7EKS3"));
-        print("Firebase initialized successfully");
+        print("Firebase inicializado");
       } else {
         await Firebase.initializeApp();
-        print("Firebase initialized successfully");
+        print("Firebase inicializado");
       }
-      print("Documento escrito com sucesso!");
+      print("Documento escrito");
     } catch (error) {
       print("Erro durante a inicialização ou escrita no Firestore: $error");
     }
